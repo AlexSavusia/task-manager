@@ -1,0 +1,26 @@
+{
+  "name": "mamager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "db:serve": "json-server --watch db.json --port=3001",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.25.3",
+    "json-server": "^0.17.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuex": "^3.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
